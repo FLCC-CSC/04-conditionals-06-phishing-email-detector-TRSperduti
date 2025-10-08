@@ -18,7 +18,7 @@
 
 email_subject = input("Enter the email subject line: ")
 print()
-print("SECURITY ASSESSMENT: ")
+print("SECURITY ASSESSMENT:")
 
 
  if "urgent" in email_subject.lower():
