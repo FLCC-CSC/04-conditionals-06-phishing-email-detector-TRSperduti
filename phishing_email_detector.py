@@ -14,10 +14,7 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-def main():
-     email_detector()
-     
-def email_detector()
+
 
 email_subject = input("Enter the email subject line: ")
 print()
@@ -36,10 +33,10 @@ print("SECURITY ASSESSMENT: ")
       print("LOW RISK: Verify legitimacy with sender.")
  else:
       print("No phishing indicators detected.")
- print("-----------------------")
+ print("------------------------")
  print(f'Analyzed subject: "{email_subject}"')
 
-main()
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
