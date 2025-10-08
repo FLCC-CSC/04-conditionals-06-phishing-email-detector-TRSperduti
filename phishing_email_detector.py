@@ -14,28 +14,32 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+     email_detector()
+     
+def email_detector()
 
 email_subject = input("Enter the email subject line: ")
 print()
 print("SECURITY ASSESSMENT: ")
 
 
-if "urgent" in email_subject.lower():
-     print("HIGH RISK: Possible phishing attempt.")
-elif "immediate action required" in email_subject.lower():
-     print("HIGH RISK: Possible phishing attempt.")
-elif "win" in email_subject.lower():
-     print("MEDIUM RISK: Suspicious offer detected.")
-elif "free" in email_subject.lower():
-     print("MEDIUM RISK: Suspicious offer detected.")
-elif "password reset" in email_subject.lower():
-     print("LOW RISK: Verify legitimacy with sender.")
-else:
-     print("No phishing indicators detected.")
-print("------------------------")
-print(f'Analyzed subject: "{email_subject}"')
+ if "urgent" in email_subject.lower():
+      print("HIGH RISK: Possible phishing attempt.")
+ elif "immediate action required" in email_subject.lower():
+      print("HIGH RISK: Possible phishing attempt.")
+ elif "win" in email_subject.lower():
+      print("MEDIUM RISK: Suspicious offer detected.")
+ elif "free" in email_subject.lower():
+      print("MEDIUM RISK: Suspicious offer detected.")
+ elif "password reset" in email_subject.lower():
+      print("LOW RISK: Verify legitimacy with sender.")
+ else:
+      print("No phishing indicators detected.")
+ print("------------------------")
+ print(f'Analyzed subject: "{email_subject}"')
 
-
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
