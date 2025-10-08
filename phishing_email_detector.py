@@ -36,7 +36,7 @@ print("SECURITY ASSESSMENT: ")
       print("LOW RISK: Verify legitimacy with sender.")
  else:
       print("No phishing indicators detected.")
- print("------------------------")
+ print("-----------------------")
  print(f'Analyzed subject: "{email_subject}"')
 
 main()
